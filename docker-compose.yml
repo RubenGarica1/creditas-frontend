@@ -1,0 +1,15 @@
+version: '3.1'
+
+services:
+  creditas-front:
+    image: rubeng12/creditas-front:1.0.1
+    container_name: creditas
+    restart: always
+    ports:
+      - "4000:8080"
+    environment:
+      - VIRTUAL_HOST=creditas.rubengarcia.me
+      - LETSENCRYPT_HOST=creditas.rubengarcia.me
+      - LETSENCRYPT_EMAIL=rubengarcia182@gmail.com
+    expose:
+      - "8080"
