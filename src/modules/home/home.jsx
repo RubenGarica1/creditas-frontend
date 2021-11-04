@@ -100,7 +100,9 @@ class Home extends Component {
             alt="creditas icon"
             src={mountains}
             layout="intrinsic"
+            className={styles.img}
             priority={true}
+            objectFit="cover"
             width={550}
             height={555}
           />

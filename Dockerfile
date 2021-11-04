@@ -1,10 +1,8 @@
 
-FROM node:alpine
+FROM node:14.4
 
 ENV PM2_PUBLIC_KEY w2yza5gzxuvgueb
 ENV PM2_SECRET_KEY hl0o4ysz1zp9fre
-
-WORKDIR /usr/app
 
 RUN npm install --global pm2
 
