@@ -1,0 +1,1 @@
+export const CREATE_CREDITO = "CREATE_CREDITO"

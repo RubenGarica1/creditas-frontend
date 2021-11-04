@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: auto;
+}
+.fotoCont {
+}
+.formCont {
+  padding-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.border {
+  border-top: 2px solid #C6E9FA;
+  border-radius: 4px;
+  background-color: #f7fbff;
+  max-height: 600px;
+  max-width: 400px;
+  height: 500px;
+  width: 400px;
+  padding: 10px;
+}
+.title {
+  font-size: 22px;
+  font-weight: 550;
+  color: rgb(48, 48, 48);
+  text-justify: center;
+}
+.pregunta {
+  margin: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(32, 32, 32);
+  text-justify: center;
+} 
+.buttonLine {
+  cursor: pointer;
+  user-select: none;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  border-radius: 5px;
+  border: 12px;
+  width: 140px;
+  margin: 10px;
+  color:rgb(71, 159, 255);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(71, 159, 255);
+  margin-top: 32px;
+  font-weight: 700;
+}
+.buttonLine:active {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 12px;
+  background: rgb(71, 159, 255);
+  margin-top: 32px;
+}
+.button {
+  cursor: pointer;
+  user-select: none;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  border-radius: 5px;
+  border: 12px;
+  width: 140px;
+  margin: 10px;
+  background: rgb(0, 81, 255);
+  margin-top: 32px;
+  font-weight: 700;
+}
+.button:active {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 12px;
+  background: rgb(0, 81, 255);
+  margin-top: 32px;
+}
+.input {
+  border: 0;
+  background: rgb(240, 240, 240);
+  height: 25px;
+  border-radius: 4px;
+}
+.centerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img{
+  border-radius: 0px 20px 20px 0px;
+}
