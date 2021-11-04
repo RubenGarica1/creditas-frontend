@@ -14,6 +14,7 @@ import {
   col,
   lineVertical
 } from "./dropdown.module.css";
+import subir from "../../../public/subir.png"
 export const Region = props => {
   const [dropdowns, setdropdown] = useState(true);
   const [item, setitem] = useState(props.sele);
@@ -39,7 +40,7 @@ export const Region = props => {
             className={dropdowns ? iconFlechaOption : iconFlechaOptionfalse}
           >
             <Image
-              src="/img/subir.svg"
+              src={subir}
               width="13"
               height="13"
               layout="fixed"
