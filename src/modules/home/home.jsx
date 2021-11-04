@@ -152,7 +152,7 @@ class Home extends Component {
         {this.state.steper==3?
           <div className={styles.formCont}>
             <div className={styles.border}>
-              {this.props.userSolicitud.message=="La solicitud fue procesada excitosamente"?
+              {this.props.userSolicitud.message=="La solicitud fue procesada exitosamente"?
               <div className={styles.center}>
                 <Image
                   alt="Mountains"
